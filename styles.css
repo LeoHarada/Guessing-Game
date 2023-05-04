@@ -1,0 +1,59 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.main-container {
+    display: flex;
+  margin-top: 100px;
+    width: 800px;
+    height: 600px;
+    background-color: bisque;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#app {
+    /* align-items: center; */
+}
+
+.title {
+    display: flex;
+}
+
+.center {
+    text-align: center;
+}
+
+#main {
+    text-align: center;
+}
+
+#guesses {
+    
+    
+}
+
+#guess-list {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    align-items: center;
+    
+}
+
+.guess {
+ 
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
